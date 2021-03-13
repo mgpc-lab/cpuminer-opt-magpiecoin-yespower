@@ -1,0 +1,10 @@
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/zlib.dir
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/zlibstatic.dir
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/example.dir
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/list_install_components.dir
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/minigzip.dir
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/rebuild_cache.dir
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/test.dir
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/install.dir
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/edit_cache.dir
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/install/local.dir

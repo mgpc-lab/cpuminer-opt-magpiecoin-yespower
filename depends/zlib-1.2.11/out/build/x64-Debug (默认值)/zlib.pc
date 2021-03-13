@@ -1,0 +1,13 @@
+prefix=C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/install/x64-Debug (默认值)
+exec_prefix=C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/install/x64-Debug (默认值)
+libdir=C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/install/x64-Debug (默认值)/lib
+sharedlibdir=C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/install/x64-Debug (默认值)/lib
+includedir=C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/install/x64-Debug (默认值)/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
