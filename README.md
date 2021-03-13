@@ -19,17 +19,13 @@ All address format (legacy, p2sh-segwit and ___bech32___) supported.
 
  * Mining Pool - `-t1` using 1 thread.
 ```
-./cpuminer -a yespower -o stratum+tcp://1pool-testnet.cryptozeny.com:3333 -u tugar1qt9tcmdq7w002j8rw78h8nraj382ptqh7fe83f8 -t1
+./cpuminer -a yespower -o stratum+tcp://1pool-testnet.cryptozeny.com:3333 -u MqqXP37SXsGxDk4AajwpyWf9itLierSV9P  -t1
 ```
 
  * Solo - `44229` is testnet. `-u` and `-p` is on the coind. (adding `--no-longpoll` for displaying correct net_diff)
 ```
-./cpuminer -a yespower -o http://localhost:44229 --no-longpoll -u rpcuser -p rpcpassword --coinbase-addr=tugar1qt9tcmdq7w002j8rw78h8nraj382ptqh7fe83f8 -t1
+./cpuminer -a yespower -o http://localhost:44229 --no-longpoll -u rpcuser -p rpcpassword --coinbase-addr=MqqXP37SXsGxDk4AajwpyWf9itLierSV9P  -t1
 ```
-
- * Screenshot
-
-![screenshot-cpuminer.png](https://github.com/cryptozeny/cpuminer-opt-sugarchain/blob/master/res/screenshot-cpuminer.png?raw=true)
 
 -----
 
