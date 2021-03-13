@@ -1,6 +1,6 @@
-cpuminer-opt-sugarchain
+cpuminer-opt-magpiecoin
 =======================
-![GitHub All Releases](https://img.shields.io/github/downloads/cryptozeny/cpuminer-opt-sugarchain/total)
+![GitHub All Releases](https://img.shields.io/github/downloads/cryptozeny/cpuminer-opt-magpiecoin/total)
 
 # Install
 Tested on Ubuntu 16.04
@@ -8,8 +8,8 @@ Tested on Ubuntu 16.04
 ```bash
 sudo apt-get install -y \
 build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev && \
-git clone https://github.com/cryptozeny/cpuminer-opt-sugarchain.git && \
-cd cpuminer-opt-sugarchain && \
+git clone https://github.com/cryptozeny/cpuminer-opt-magpiecoin.git && \
+cd cpuminer-opt-magpiecoin && \
 ./build-yespower.sh && \
 ./cpuminer --cputest
 ```
@@ -193,7 +193,7 @@ output from the miner showing at startup and any errors.
 Donations
 ---------
 
-cpuminer-opt-sugarchain has no fees of any kind but donations are accepted.
+cpuminer-opt-magpiecoin has no fees of any kind but donations are accepted.
 
  BTC: 3Gcbpn4QU4iGibZox378VdEJvjx7Z7J7Tr (cryptozeny)  
  MagpieCoin: MqqXP37SXsGxDk4AajwpyWf9itLierSV9P  (MagpieCoin)  
