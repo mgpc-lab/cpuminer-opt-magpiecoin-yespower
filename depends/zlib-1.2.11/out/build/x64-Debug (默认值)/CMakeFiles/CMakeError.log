@@ -1,0 +1,100 @@
+Determining size of off64_t failed with the following output:
+Change Dir: C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4747d && [1/2] Building C object CMakeFiles\cmTC_4747d.dir\OFF64_T.c.obj
+FAILED: CMakeFiles/cmTC_4747d.dir/OFF64_T.c.obj 
+C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe  /nologo -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_4747d.dir\OFF64_T.c.obj /FdCMakeFiles\cmTC_4747d.dir\ /FS -c "C:\Users\ldsyy\Desktop\cpuminer-opt-magpiecoin\cpuminer-opt-magpiecoin\cpuminer-opt-sugarchain-master\depends\zlib-1.2.11\out\build\x64-Debug (Ĭ��ֵ)\CMakeFiles\CheckTypeSize\OFF64_T.c"
+注意: 包含文件:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/types.h
+注意: 包含文件:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\stdint.h
+注意: 包含文件:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime.h
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\sal.h
+注意: 包含文件:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\concurrencysal.h
+注意: 包含文件:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vadefs.h
+注意: 包含文件:  C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stddef.h
+注意: 包含文件:   C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt.h
+C:\Users\ldsyy\Desktop\cpuminer-opt-magpiecoin\cpuminer-opt-magpiecoin\cpuminer-opt-sugarchain-master\depends\zlib-1.2.11\out\build\x64-Debug (默认值)\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: “off64_t”: 未声明的标识符
+C:\Users\ldsyy\Desktop\cpuminer-opt-magpiecoin\cpuminer-opt-magpiecoin\cpuminer-opt-sugarchain-master\depends\zlib-1.2.11\out\build\x64-Debug (默认值)\CMakeFiles\CheckTypeSize\OFF64_T.c(30): error C2065: “off64_t”: 未声明的标识符
+C:\Users\ldsyy\Desktop\cpuminer-opt-magpiecoin\cpuminer-opt-magpiecoin\cpuminer-opt-sugarchain-master\depends\zlib-1.2.11\out\build\x64-Debug (默认值)\CMakeFiles\CheckTypeSize\OFF64_T.c(31): error C2065: “off64_t”: 未声明的标识符
+C:\Users\ldsyy\Desktop\cpuminer-opt-magpiecoin\cpuminer-opt-magpiecoin\cpuminer-opt-sugarchain-master\depends\zlib-1.2.11\out\build\x64-Debug (默认值)\CMakeFiles\CheckTypeSize\OFF64_T.c(32): error C2065: “off64_t”: 未声明的标识符
+C:\Users\ldsyy\Desktop\cpuminer-opt-magpiecoin\cpuminer-opt-magpiecoin\cpuminer-opt-sugarchain-master\depends\zlib-1.2.11\out\build\x64-Debug (默认值)\CMakeFiles\CheckTypeSize\OFF64_T.c(33): error C2065: “off64_t”: 未声明的标识符
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8325a && [1/2] Building C object CMakeFiles\cmTC_8325a.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_8325a.exe
+FAILED: cmTC_8325a.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_8325a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_8325a.dir\CheckFunctionExists.c.obj  /out:cmTC_8325a.exe /implib:cmTC_8325a.lib /pdb:cmTC_8325a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_8325a.dir\CheckFunctionExists.c.obj /out:cmTC_8325a.exe /implib:cmTC_8325a.lib /pdb:cmTC_8325a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_8325a.dir/intermediate.manifest CMakeFiles\cmTC_8325a.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号
+cmTC_8325a.exe : fatal error LNK1120: 1 个无法解析的外部命令
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/ldsyy/Desktop/cpuminer-opt-magpiecoin/cpuminer-opt-magpiecoin/cpuminer-opt-sugarchain-master/depends/zlib-1.2.11/out/build/x64-Debug (默认值)/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ebf20 && [1/2] Building C object CMakeFiles\cmTC_ebf20.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_ebf20.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_ebf20.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_ebf20.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
