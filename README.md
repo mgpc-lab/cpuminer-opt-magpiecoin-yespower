@@ -1,6 +1,5 @@
 cpuminer-opt-magpiecoin
 =======================
-![GitHub All Releases](https://img.shields.io/github/downloads/cryptozeny/cpuminer-opt-magpiecoin/total)
 
 # Install
 Tested on Ubuntu 16.04
@@ -8,7 +7,7 @@ Tested on Ubuntu 16.04
 ```bash
 sudo apt-get install -y \
 build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev && \
-git clone https://github.com/cryptozeny/cpuminer-opt-magpiecoin.git && \
+git clone https://github.com/mgpc-lab/cpuminer-opt-magpiecoin-yespower.git && \
 cd cpuminer-opt-magpiecoin && \
 ./build-yespower.sh && \
 ./cpuminer --cputest
